@@ -89,6 +89,7 @@ def index(request):
                                           'customers': customers, 'customerss': customerss,
                                           'blogdesc': blogdesc})
 
+
 def menu(request):
     starter = MenuStarter.objects.all()
     main_course = MenuMain.objects.all()
